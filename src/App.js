@@ -6,7 +6,7 @@ import './App.css';
 const App = React.createClass({
   mixins: [LifeCycle],
   render() {
-
+    console.log('render');
     return (
       <div className="App">
         <div className="App-header">
